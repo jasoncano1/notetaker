@@ -1,0 +1,19 @@
+{
+  "name": "notetaker",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
