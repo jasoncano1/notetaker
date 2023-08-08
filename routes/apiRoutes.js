@@ -22,9 +22,9 @@ router.delete('/notes/:id', (req, res) => {
     const id = req.params.id;
     const newData = data.filter(note => note.id !== id);
     writeFile('./db/db.json', JSON.stringify(newData), (err) => {
-
         if (err) throw err;
         res.json(newData);
     });
 });
+
 module.exports = router;
